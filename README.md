@@ -73,7 +73,6 @@ Developed as a university project for learning and demonstrating OOP concepts in
 
 ## 👩‍💻 Developed By
 
-- Sara Ahmed
-- Nourhan Mohamed
-- Salma Khaled
+- Marwa Ahmad
+- Alaa Mohmoud
 
