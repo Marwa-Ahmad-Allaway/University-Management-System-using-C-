@@ -1,55 +1,71 @@
-# University-Management-System-using-C-
-This project is a complete University Management System developed in C++ using Object-Oriented Programming (OOP) principles. It simulates and manages key university entities such as Students, Professors, Teaching Assistants (TAs), and Courses.
+# 🎓 University Management System in C++
 
-#✅ Main Features:
-Student Management:
+This is a C++ console-based **University Management System** designed using **Object-Oriented Programming (OOP)** principles. It simulates real-life operations for managing students, professors, teaching assistants (TAs), and courses.
 
-Add new students.
+## 📌 Features
 
-Enroll students in courses, considering prerequisites and maximum allowed credit hours based on GPA.
+### 👨‍🎓 Student Management
+- Add new students.
+- Enroll students in courses.
+- Automatically checks:
+  - Prerequisite completion.
+  - GPA-based credit hour limits.
+- Display student details and enrolled courses.
+- Unenroll students from courses.
 
-Display student information and enrolled courses.
+### 👨‍🏫 Professor Management
+- Add new professors.
+- Assign professors to teach courses.
+- Track supervised theses count per professor.
 
-Professor Management:
+### 👨‍🔬 Teaching Assistant Management
+- Add TAs with:
+  - Department
+  - Supervisor (Professor)
+  - Research Area
+  - Number of Publications
+  - List of Projects
+- Assign TAs to courses.
 
-Add professors.
+### 📚 Course Management
+- Create new courses.
+- Set prerequisites and required credits.
+- Assign professors and TAs.
+- View course details with instructors and enrolled students.
 
-Assign professors to teach courses.
+### 💾 Data Persistence
+- All data is stored in CSV files:
+  - `students.csv`
+  - `professors.csv`
+  - `courses.csv`
+  - `tas.csv`
+- Data is loaded at startup and saved automatically on exit.
 
-Track the number of theses supervised by each professor.
+## 🔐 User Roles
 
-Teaching Assistant (TA) Management:
+- **Student**
+  - View personal info
+  - Enroll in courses
+- **Professor**
+  - View personal info and supervised theses
+- **Teaching Assistant**
+  - View profile and projects
+- **Administrator**
+  - Full access to add/view/assign entities (requires access code)
 
-Add TAs along with department, supervisor, research area, publications, and projects.
+## ⚙️ Technologies Used
 
-Assign TAs to courses.
+- **Language:** C++
+- **Paradigm:** Object-Oriented Programming
+- **Libraries:** STL (`vector`, `string`, `fstream`, etc.)
+- **File Handling:** CSV input/output
 
-Course Management:
+## 🏁 Getting Started
 
-Create new courses.
+1. Compile the source code with a C++ compiler (e.g., `g++`).
+2. Run the program from the terminal.
+3. Interact with the system based on your role.
 
-Set required credits and prerequisites.
+## ✍️ Author
 
-View course details along with assigned professors, TAs, and enrolled students.
-
-Data Persistence:
-All data is stored in CSV files and is automatically loaded at program startup and saved upon exit to ensure continuity between sessions.
-
-⚙️ Technologies Used:
-C++ programming language
-
-Object-Oriented Programming (Encapsulation, Inheritance, Polymorphism)
-
-CSV file handling (read/write)
-
-STL containers like vector, string, fstream
-
-👥 Roles in the System:
-Student
-
-Professor
-
-Teaching Assistant
-
-Administrator (with admin code access)
-
+Developed as a university project for learning and demonstrating OOP concepts in C++.
