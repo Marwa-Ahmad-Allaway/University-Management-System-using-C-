@@ -69,3 +69,11 @@ This is a C++ console-based **University Management System** designed using **Ob
 ## ✍️ Author
 
 Developed as a university project for learning and demonstrating OOP concepts in C++.
+
+
+## 👩‍💻 Developed By
+
+- Sara Ahmed
+- Nourhan Mohamed
+- Salma Khaled
+
